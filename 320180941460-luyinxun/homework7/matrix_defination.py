@@ -1,26 +1,44 @@
+import doctest
+
 '''
 this class method is only can be uesd to calculate
 the one-dimensional or two-dimensinal matrix
 '''
 
+
 class Matrix:
+
+    '''
+    :parameter: row,col,l (the list need to be translated into matrix)
+    '''
+
     def __init__(self,row=0,col=0,l=[]):  #define the information of matrix
-        if isinstance(row,int) and isinstance(col,int) and row>=0 and col>=0:
+        if row>=0 and col>=0:
             self.row = row
             self.col = col
             self.l = l
             self.shape = (row,col)
-        else:
-            raise Exception('error data')
 
 
     def array(self):
 
         '''
         translate the list into the matrix
-                create the matrix
+        >>> a = Matrix(2,2,[1,2,3,4])
+        >>> a.array()
+        [[1, 2], [3, 4]]
+        >>> a.shape
+        (2, 2)
+
+        >>> b = Matrix(1.5,2,[2,3,6])
+        >>> b.array()
+        error
+
         '''
+
         try:
+            if not isinstance(self.row,int) or not isinstance(self.col,int):
+                raise Exception('error')
             if len(self.l) == self.row*self.col:      #verify the list about it's length
                 if self.row == 1:
                     return self.l
@@ -33,12 +51,17 @@ class Matrix:
                     return array
             else:
                 return '\nThis list {} isn\'t translated into a matrix!\n'.format(self.l)
-        except:
-            return 'error'
+        except Exception as r:
+            print(r)
+
 
     def T(self):
 
-        '''transpose the matrix'''
+        '''transpose the matrix
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> a.T().array()
+        [[1, 4], [2, 5], [3, 6]]
+        '''
 
         a = []
         for i in range(self.col):
@@ -47,8 +70,16 @@ class Matrix:
         return Matrix(self.col,self.row,a)
 
     def reshape(self,new_row,new_col):
+        '''reshape the matrix
 
-        '''reshape the matrix'''
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> a.reshape(6,1).array()
+        [[1], [2], [3], [4], [5], [6]]
+
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> a.reshape(2,2)
+        it can\'t be reshaped
+        '''
 
         try:
             if self.row*self.col == new_row*new_col \
@@ -57,27 +88,61 @@ class Matrix:
             else:
                 raise Exception('it can\'t be reshaped')
         except Exception as e:
-            return e
+            print(e)
 
     def add(self,other):
-        if self.shape == other.shape:
-            if self.row == 1:
-                return function_add_sub(self.array(), other.array())
-            if self.row == 2:
-                return function_add_sub(self.array(), other.array())
-        else:
-            return 'can\'t add'
+        '''
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> b = Matrix(2, 3, [7, 8, 9, 4, 1, 2])
+        >>> a.add(b).array()
+        [[8, 10, 12], [8, 6, 8]]
+
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> b = Matrix(3, 2, [7, 8, 9, 4, 1, 2])
+        >>> a.add(b)
+        add error
+        '''
+        try:
+            if self.shape == other.shape:
+                if self.row == 1:
+                    return function_add_sub(self.array(), other.array())
+                if self.row == 2:
+                    return function_add_sub(self.array(), other.array())
+            else:
+                raise Exception('add error')
+        except Exception as e:
+            print(e)
 
     def sub(self,other):
-        if self.shape == other.shape:
-            if self.row == 1:
-                return function_add_sub(self.array(), other.array(),1)
-            if self.row == 2:
-                return function_add_sub(self.array(), other.array(),1)
-        else:
-            return 'can\'t subtract'
+        '''
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> b = Matrix(2, 3, [7, 8, 9, 4, 1, 2])
+        >>> a.sub(b).array()
+        [[-6, -6, -6], [0, 4, 4]]
+
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> b = Matrix(3, 2, [7, 8, 9, 4, 1, 2])
+        >>> a.sub(b)
+        sub error
+        '''
+        try:
+            if self.shape == other.shape:
+                if self.row == 1:
+                    return function_add_sub(self.array(), other.array(),1)
+                if self.row == 2:
+                    return function_add_sub(self.array(), other.array(),1)
+            else:
+                raise Exception('sub error')
+        except Exception as e:
+            print(e)
 
     def mul(self,other):
+        '''
+        >>> a = Matrix(2, 3, [1, 2, 3, 4, 5, 6])
+        >>> b = Matrix(3, 2, [7, 8, 9, 4, 1, 2])
+        >>> a.mul(b).array()
+        [[28, 22], [79, 64]]
+        '''
         if self.col == other.row:
             return function_mul(self.array(),other.array())
         else:
@@ -129,3 +194,8 @@ def function_mul(arr1,arr2):
     b=[]
     dcp(len(arr1), len(arr2[0]),a, b)
     return Matrix(len(arr1),len(arr2[0]),b)
+
+
+if __name__ == '__main__':
+
+    doctest.testmod(verbose=True)
