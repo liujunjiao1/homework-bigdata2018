@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@Time ： 2020/3/22 16:54
+@Auth ： 正义的太阳骑士
+@Version:  Python 3.6.8
+
+"""
+
 """
 This module provides the Matrix class.
 
@@ -62,7 +70,7 @@ False
 """
 
 import copy
-
+import typing
 
 class Matrix:
 	'''the Matrix class
@@ -83,7 +91,7 @@ class Matrix:
 		13.a.identity() : Returns the identity matrix of the matrix a
 	'''
 
-	def __init__(self, row, column, value=0.0):
+	def __init__(self, row: int, column: int, value: float = 0.0):
 		''' Initialize a matrix
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -97,9 +105,9 @@ class Matrix:
 		self.shape = (row, column)
 		self.row = row
 		self.column = column
-		self._matrix = [[value for i in range(column)] for i in range(row)]
+		self._matrix = [[value for i in range(column)] for i in range(row)]  # Represent the matrix as an array
 
-	def __getitem__(self, index):
+	def __getitem__(self, index: int) -> float:
 		''' Returns the value represented on the specified index in the matrix
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -111,7 +119,7 @@ class Matrix:
 		elif isinstance(index, tuple):
 			return self._matrix[index[0] - 1][index[1] - 1]
 
-	def __setitem__(self, index, value):
+	def __setitem__(self, index: int, value) -> None:
 		''' To set the value given on the specified index in the matrix
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -124,45 +132,45 @@ class Matrix:
 		elif isinstance(index, tuple):
 			self._matrix[index[0] - 1][index[1] - 1] = value
 
-	def __eq__(self, N):
+	def __eq__(self, n) -> bool:
 		''' Overload the operator "=="
 		>>> m = Matrix(3, 3, value=2.0)
 		>>> n = Matrix(3, 3, value=2.0)
 		>>> m == n
 		True
 		'''
-		assert isinstance(N, Matrix)
-		return N._matrix == self._matrix
+		assert isinstance(n, Matrix)
+		return n._matrix == self._matrix
 
-	def __add__(self, N):
+	def __add__(self, n):
 		''' Overload the operator "+"
 		>>> m = Matrix(3, 3, value=2.0)
 		>>> n = Matrix(3, 3, value=1.0)
 		>>> m + n
 		[[3.0, 3.0, 3.0], [3.0, 3.0, 3.0], [3.0, 3.0, 3.0]]
 		'''
-		assert N.shape == self.shape
-		M = Matrix(self.row, self.column)
+		assert n.shape == self.shape
+		m = Matrix(self.row, self.column)
 		for r in range(self.row):
 			for c in range(self.column):
-				M[r, c] = self[r, c] + N[r, c]
-		return M
+				m[r, c] = self[r, c] + n[r, c]
+		return m
 
-	def __sub__(self, N):
+	def __sub__(self, n):
 		''' Overload the operator "-"
 		>>> m = Matrix(3, 3, value=2.0)
 		>>> n = Matrix(3, 3, value=1.0)
 		>>> m - n
 		[[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
 		'''
-		assert N.shape == self.shape
-		M = Matrix(self.row, self.column)
+		assert n.shape == self.shape
+		m = Matrix(self.row, self.column)
 		for r in range(self.row):
 			for c in range(self.column):
-				M[r, c] = self[r, c] - N[r, c]
-		return M
+				m[r, c] = self[r, c] - n[r, c]
+		return m
 
-	def __mul__(self, N):
+	def __mul__(self, n):
 		''' Overload the operator "*"
 		>>> m = Matrix(3, 3, value=2.0)
 		>>> n = Matrix(3, 3, value=1.0)
@@ -171,23 +179,23 @@ class Matrix:
 		>>> m * 5
 		[[10.0, 10.0, 10.0], [10.0, 10.0, 10.0], [10.0, 10.0, 10.0]]
 		'''
-		if isinstance(N, int) or isinstance(N, float):
-			M = Matrix(self.row, self.column)
+		if isinstance(n, int) or isinstance(n, float):
+			m = Matrix(self.row, self.column)
 			for r in range(self.row):
 				for c in range(self.column):
-					M[r, c] = self[r, c] * N
+					m[r, c] = self[r, c] * n
 		else:
-			assert N.row == self.column
-			M = Matrix(self.row, N.column)
+			assert n.row == self.column
+			m = Matrix(self.row, n.column)
 			for r in range(self.row):
-				for c in range(N.column):
+				for c in range(n.column):
 					sum = 0
 					for k in range(self.column):
-						sum += self[r, k] * N[k, r]
-					M[r, c] = sum
-		return M
+						sum += self[r, k] * n[k, r]
+					m[r, c] = sum
+		return m
 
-	def __pow__(self, k):
+	def __pow__(self, k: int):
 		''' Overload the operator "**"
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -195,12 +203,12 @@ class Matrix:
 		[[2592.0, 2592.0, 2592.0], [2592.0, 2592.0, 2592.0], [2592.0, 2592.0, 2592.0]]
 		'''
 		assert self.row == self.column
-		M = copy.deepcopy(self)
+		m = copy.deepcopy(self)
 		for i in range(k):
-			M = M * self
-		return M
+			m = m * self
+		return m
 
-	def __repr__(self):
+	def __repr__(self) -> str:
 		return "{}".format(self._matrix)
 
 
@@ -218,7 +226,7 @@ class Matrix:
 				M[r, c] = self[c, r]
 		return M
 
-	def cofactor(self, row, column):
+	def cofactor(self, row: int, column: int):
 		'''Returns the one of cofactors of a matrix
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -240,7 +248,7 @@ class Matrix:
 				M[rr, cc] = self[r, c]
 		return M
 
-	def det(self):
+	def det(self) -> float:
 		'''Evaluate the determinant
 
 		>>> m = Matrix(3, 3, value=2.0)
@@ -308,7 +316,7 @@ class Matrix:
 			N[r] = M[r][self.row:]
 		return N
 
-	def rank(self):
+	def rank(self) -> int:
 		''' Returns the rank of the Matrix
 		
 		>>> m = Matrix(3, 3, value=2.0)
