@@ -153,16 +153,16 @@ comment:
 320180941001, 320180941011, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941011, 320180942321, 
-comment:
-320180941011, 320180919421, 
-comment:
-320180941011, 320180941361, 
-comment:
-320180941011, 320180941161, 
-comment:
-320180941011, 320180942211, 
-comment:
+320180941011, 320180942321, A, A, A, A, A
+comment: virtually a perfect code, no wrong grammar, integrated test part, totally beyond what an undergraduate should be able to do
+320180941011, 320180919421, A, A, A, A, A
+comment: completely correct, elaborate docs, proper exceptions
+320180941011, 320180941361, A, B, C, C, A
+comment: basically right, simple test part, hardly any docs, no exceptions
+320180941011, 320180941161, B, A, B, C, A
+comment:lack of some functions, comments in Chinese, no exceptions
+320180941011, 320180942211, A, A, B, A, A
+comment:comments in Chinese
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941141, 320180941250, 
 comment:
