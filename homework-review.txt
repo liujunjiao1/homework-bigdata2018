@@ -461,16 +461,16 @@ comment:
 320180942201, 320180942211, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942211, 320180928901, 
-comment:
-320180942211, 320170926300, 
-comment:
-320180942211, 320180941370, 
-comment:
-320180942211, 320180941361, 
-comment:
-320180942211, 320180941881, 
-comment:
+320180942211, 320180928901, A, A, A, A, A
+comment: Well done. Please use *.py format next time rather than *.ipynb and delete repeated file in your folder.
+320180942211, 320170926300, A, B, B, A, A
+comment: Please try to use more English comments, and test by doctest.
+320180942211, 320180941370, A, A, A, A, A
+comment: You can try to use assert to dealing with exception next time, which is more simple.
+320180942211, 320180941361, A, B, B, A, A 
+comment: Please try to use more English comments, and test by doctest.
+320180942211, 320180941881, A, A, A, A, A
+comment: Well done. Add whitespaces after comma can make your code more pythonic.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942261, 320170903441, 
 comment:
