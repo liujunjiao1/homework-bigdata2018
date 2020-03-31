@@ -11,9 +11,9 @@ class Matrix:
         self._matrix=[[value for _ in range(row)] for _ in range(row)]
       
     def __getitem__(self,index):
-        if isintance(index,int):
+        if isinstance(index,int):
             return self._matrix[index]
-        elif isintance(index,tuple):
+        elif isinstance(index,tuple):
             return self._matrix[index[0]][index[1]]
 
     def show(self):
