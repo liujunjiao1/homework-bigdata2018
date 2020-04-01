@@ -406,16 +406,16 @@ comment:
 320180941991, 320180942021, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942011, 320180941460, 
-comment:
-320180942011, 320180941651, 
-comment:
-320180942011, 320180941901, 
-comment:
-320180942011, 320180941980, 
-comment:
-320180942011, 320170926300, 
-comment:
+320180942011, 320180941460, A, A, B, A, A
+comment: The code and doctests are correct. But some functions have short documentation.
+320180942011, 320180941651, A, A, B, A, B
+comment: Please write down the overview in English and Pythonic.
+320180942011, 320180941901, A, A, A, A, A
+comment: Good job. Implements quite a few functions and beautiful code.
+320180942011, 320180941980, A, A, A, A, A
+comment: You can make more functions to do more things and you have finished it well.
+320180942011, 320170926300, A, C, B, A, B
+comment: There is no doctests. And the documentation is too short.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942021, 320180941780, 
 comment:
