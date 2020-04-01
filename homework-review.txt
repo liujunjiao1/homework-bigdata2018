@@ -76,16 +76,16 @@ comment:
 320170929331, 320180941011, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180919421, 320170900210, A, B, A, A, A
-comment:Please put the doctest at the beginning of the module or the next line of the function declaration statement.
-320180919421, 320180941861, A, A, A, A, A
-comment:Relatively perfect functions, clear annotation  and standardized doctest.
-320180919421, 320180942211, A, A, A, A, A
-comment:Perfect function, proper annotation, correct exception handling.
-320180919421, 320180941361, A, B, B, A, A
-comment:Please use proper English comments and doctest.
-320180919421, 320180942201, A, B, B, A, A
-comment:Please use proper English comments and doctest.
+320180919421, 320170900210, 
+comment:
+320180919421, 320180941861, 
+comment:
+320180919421, 320180942211, 
+comment:
+320180919421, 320180941361, 
+comment:
+320180919421, 320180942201, 
+comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180928901, 320180941141, 
 comment:
@@ -340,16 +340,16 @@ comment:
 320180941861, 320180942261, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941881, 320180942261, 
-comment:
-320180941881, 320180941011, 
-comment:
-320180941881, 320180940961, 
-comment:
-320180941881, 320180941590, 
-comment:
-320180941881, 320180941420, 
-comment:
+320180941881, 320180942261, A,A,A,A,A
+comment:perfect code ,the class has many functions and no grammar wrong,code style is standard
+320180941881, 320180941011, A,C,A,A,A
+comment:correct result,with appropriate description,has test but not doctest,
+320180941881, 320180940961, A,A,A,B,A
+comment:has good functions and document,but no exception handling
+320180941881, 320180941590, A,B,C,A,A
+comment:result is correct and no grammar wrong,but has no doctest and documentation
+320180941881, 320180941420, A,A,A,A,B
+comment:prefect code,but a little problem with annotation style
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941890, 320180941420, 
 comment:
