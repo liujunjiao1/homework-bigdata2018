@@ -43,16 +43,16 @@ comment:
 320170900210, 320180941991, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320170903441, 320180941370, A, A, A, B, C
-comment:There is no errors or expections in code, but no type checking and proper pythonic code.
-320170903441, 320180941901, A, A, A, A, A
-comment:There is no errors, complete exeption handling, and type checking. The author try pythonic code.
-320170903441, 320180941931, A, B, C, C, D
-comment:The code dosen't exist proper docstr and comment or use pythonic code style. 
-320170903441, 320180940981, A, B, C, B, c
-comment:The logic of the code implementation is not proper and no proper code style.
-320170903441, 320170926300, A, C, B, C, A
-comment:The code is complete and use proper style but lack proper exeption handling and docstr.
+320170903441, 320180941370, 
+comment:
+320170903441, 320180941901, 
+comment:
+320170903441, 320180941931, 
+comment:
+320170903441, 320180940981, 
+comment:
+320170903441, 320170926300, 
+comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320170926300, 320180942321, 
 comment:
@@ -98,21 +98,21 @@ comment:
 320180928901, 320180940961, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180940780, 320180940961, 
-comment:
-320180940780, 320180941821, 
-comment:
-320180940780, 320170929331, 
-comment:
-320180940780, 320180940981, 
-comment:
-320180940780, 320170903441, 
-comment:
+320180940780, 320180940961, A, A, A, B, A
+comment:The code is clean and complete, but it lacks exception handling.
+320180940780, 320180941821, A, A, A, B, A
+comment:The code is very clean, exception handling is a little bit less.
+320180940780, 320170929331, A, A, A ,B, A
+comment:The code is easy to read and the tests and docstest are correct.
+320180940780, 320180940981, A, B, B, B, A
+comment:Doctest is not written in main, code has less comment.
+320180940780, 320170903441, A, A, A, A, A
+comment:The code is easy to read, the tests are correct, and exceptions are handled well.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180940891, 320170900210, 
 comment:
-320180940891, 320180928901, 
-comment:
+320180940891, 320180928901, A,A,B,A,B
+comment:This is good!but is not profect.
 320180940891, 320180940780, 
 comment:
 320180940891, 320180941841, 
@@ -120,16 +120,16 @@ comment:
 320180940891, 320180941691, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180940961, 320180928901, 
-comment:
-320180940961, 320180941420, 
-comment:
+320180940961, 320180928901, A,A,B,A,B
+comment:Good job!But theformat is *.py instead of *.ipynb.
+320180940961, 320180941420, A,A,B,B,B
+comment:Good job!Pay attention to the pep8.
 320180940961, 320180941931, 
-comment:
-320180940961, 320180941901, 
-comment:
-320180940961, 320180942181, 
-comment:
+comment:Good job!
+320180940961, 320180941901, B,A,B,A,A
+comment:Good job!
+320180940961, 320180942181,A,A,B,B,B 
+comment:Complete more functions.But pay attention to the pep8.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180940981, 320180941001, 
 comment:
@@ -175,16 +175,16 @@ comment:
 320180941141, 320180941001, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941161, 320180941370, 
-comment:
-320180941161, 320180941881, 
-comment:
-320180941161, 320180940981, 
-comment:
-320180941161, 320180928901, 
-comment:
-320180941161, 320180940780, 
-comment:
+320180941161, 320180941370, A,A,A,A,B
+comment: Good job! But the coding style isn't pythonic.
+320180941161, 320180941881, A,B,A,A,B
+comment: the test is not very correct. And the coding style isn't pythonic.
+320180941161, 320180940981, A,B,A,A,B
+comment:  The coding style isn't pythonic.
+320180941161, 320180928901, A,B,A,A,B
+comment: The coding style isn't pythonic.
+320180941161, 320180940780, A,A,A,A,B
+comment:the coding style isn't pythonic.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941250, 320170926300, 
 comment:
@@ -417,16 +417,16 @@ comment: You can make more functions to do more things and you have finished it 
 320180942011, 320170926300, A, C, B, A, B
 comment: There is no doctests. And the documentation is too short.
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942021, 320180941780, 
-comment:
-320180942021, 320180941001, 
-comment:
-320180942021, 320180940981, 
-comment:
-320180942021, 320180941980, 
-comment:
-320180942021, 320180941861, 
-comment:
+320180942021, 320180941780, A, A, A, A, A
+comment:No problem. Code integrity.
+320180942021, 320180941001, A, A, B, A, A
+comment:There is no big problem in the code here. But there is no class comment.
+320180942021, 320180940981, A, C, B, A, A
+comment:The code does not call doctest for testing. And there is no class comment, too.
+320180942021, 320180941980, A, A, A, A, A
+comment:Perfect code.
+320180942021, 320180941861, A, A, A, A, B
+comment:The code is correct. But some parts of the code do not conform to pep8 specification.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942131, 320180941931,  A, C, D, C, B
 comment:corrent code, Comments in Chinese,  No documentation,  Few exception,  Common pep8.
