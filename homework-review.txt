@@ -120,16 +120,16 @@ comment:
 320180940891, 320180941691, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180940961, 320180928901, 
-comment:
-320180940961, 320180941420, 
-comment:
+320180940961, 320180928901, A,A,B,A,B
+comment:Good job!But theformat is *.py instead of *.ipynb.
+320180940961, 320180941420, A,A,B,B,B
+comment:Good job!Pay attention to the pep8.
 320180940961, 320180941931, 
-comment:
-320180940961, 320180941901, 
-comment:
-320180940961, 320180942181, 
-comment:
+comment:Good job!
+320180940961, 320180941901, B,A,B,A,A
+comment:Good job!
+320180940961, 320180942181,A,A,B,B,B 
+comment:Complete more functions.But pay attention to the pep8.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180940981, 320180941001, 
 comment:
