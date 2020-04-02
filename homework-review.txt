@@ -87,16 +87,16 @@ comment:
 320180919421, 320180942201, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180928901, 320180941141, 
-comment:
-320180928901, 320180941581, 
-comment:
-320180928901, 320180941161, 
-comment:
-320180928901, 320180942261, 
-comment:
-320180928901, 320180940961, 
-comment:
+320180928901, 320180941141, A,C,B,C,C
+comment:No write class no test documentation, but the overall code is ok
+320180928901, 320180941581, A,A,A,A,A
+comment:The code is rigorous, the function is perfect.
+320180928901, 320180941161, A,A,A,A,A
+comment:The code is well-written and well commented.
+320180928901, 320180942261, A,A,A,A,A
+comment:do a good job,perfect!
+320180928901, 320180940961, A,A,B,B,B
+comment:The code as a whole is ok, but there is no exception handling or proper code specification.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180940780, 320180940961, A, A, A, B, A
 comment:The code is clean and complete, but it lacks exception handling.
@@ -439,16 +439,16 @@ comment:correct but  onerous code, no comments in Chinese, no doctest, faulty pe
 320180942131, 320180941691, A, A, A, A, A 
 comment:corrent code, perfect comment, pefect documentation and exception, pep8
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942181, 320180940961, B, B, B, B, A
-comment:Doctest runs error, Too few annotation, No exception handling.
-320180942181, 320180941991, A, B, B, B, B
-comment:No doctest, Chinese annotation, No exception handling, Some code is not in accordance with pep8.
-320180942181, 320180942301,  B, B, B, C, B
-comment:Only the same element matrix can be created, Chinese annotation, No doctest, No exception handling, Not in accordance with pep8.
-320180942181, 320180941890, C, B, B, C, B
-comment:Run error, There are many errors in the code, Wrong doctest, No exception handling, Not in accordance with pep8.
-320180942181, 320180941931, B, B, B, C, B
-comment:Insufficient function realization, Chinese annotation, No doctest, No exception handling, Not in accordance with pep8.
+320180942181, 320180940961, 
+comment:
+320180942181, 320180941991, 
+comment:
+320180942181, 320180942301, 
+comment:
+320180942181, 320180941890, 
+comment:
+320180942181, 320180941931, 
+comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942201, 320180941780, 
 comment:
