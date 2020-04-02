@@ -274,16 +274,16 @@ comment:
 320180941590, 320180941420, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941651, 320180942301, 
-comment:
-320180941651, 320180942321, 
-comment:
-320180941651, 320180941001, 
-comment:
-320180941651, 320180941861, 
-comment:
-320180941651, 320180942201, 
-comment:
+320180941651, 320180942301, B,C,A,B,B
+comment:the code is not pythonic,but no doctest,comments in Chinese
+320180941651, 320180942321, B,C,A,B,B
+comment:the doctest is not complete,and the code is no pythonic
+320180941651, 320180941001, B,C,B,A,B
+comment:the test is wrong,and comments are good
+320180941651, 320180941861, A,A,B,A,B
+comment:the code is good,but not perfect,and the test is right
+320180941651, 320180942201, A,C,B,A,B
+comment:comments is not English,no test, the code can be pythonic
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941691, 320180941250, 
 comment:
