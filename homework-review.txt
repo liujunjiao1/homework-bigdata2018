@@ -197,16 +197,16 @@ comment:
 320180941250, 320180942021, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941291, 320180942011, 
-comment:
-320180941291, 320180941581, 
-comment:
-320180941291, 320180941890, 
-comment:
-320180941291, 320180942021, 
-comment:
-320180941291, 320180942301, 
-comment:
+320180941291, 320180942011, A, A, A, A, A
+comment:No grammar errors, the functions of class are complete. The code is concise and the doctest is easy to understand.
+320180941291, 320180941581, A, A, A, A, A
+comment:The coding style is correct and there are no errors in the code. The class is functional fully.
+320180941291, 320180941890, A, A, A, A, A
+comment:No grammar errors in code and the exception hundling is complete. The only problem is note annotation is a little brief.
+320180941291, 320180942021, A, A, A, A, A
+comment:There is no errors or exceptions in the code and the functions are complete. The coding style is also proper.
+320180941291, 320180942301, A, A, B, A, A
+comment:The code is right but the writter didn't use doctest and there is too much Chinese in the note annotation.  
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941361, 320170926300, 
 comment:
