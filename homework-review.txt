@@ -417,16 +417,16 @@ comment: You can make more functions to do more things and you have finished it 
 320180942011, 320170926300, A, C, B, A, B
 comment: There is no doctests. And the documentation is too short.
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942021, 320180941780, 
-comment:
-320180942021, 320180941001, 
-comment:
-320180942021, 320180940981, 
-comment:
-320180942021, 320180941980, 
-comment:
-320180942021, 320180941861, 
-comment:
+320180942021, 320180941780, A, A, A, A, A
+comment:No problem. Code integrity.
+320180942021, 320180941001, A, A, B, A, A
+comment:There is no big problem in the code here. But there is no class comment.
+320180942021, 320180940981, A, C, B, A, A
+comment:The code does not call doctest for testing. And there is no class comment, too.
+320180942021, 320180941980, A, A, A, A, A
+comment:Perfect code.
+320180942021, 320180941861, A, A, A, A, B
+comment:The code is correct. But some parts of the code do not conform to pep8 specification.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942131, 320180941931,  A, C, D, C, B
 comment:corrent code, Comments in Chinese,  No documentation,  Few exception,  Common pep8.
