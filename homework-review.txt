@@ -111,8 +111,8 @@ comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180940891, 320170900210, 
 comment:
-320180940891, 320180928901, 
-comment:
+320180940891, 320180928901, A,A,B,A,B
+comment:This is good!but is not profect.
 320180940891, 320180940780, 
 comment:
 320180940891, 320180941841, 
