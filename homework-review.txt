@@ -296,16 +296,16 @@ comment:
 320180941691, 320180941651, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941780, 320180942181, 
-comment:
-320180941780, 320180941250, 
-comment:
-320180941780, 320180941991, 
-comment:
-320180941780, 320180941460, 
-comment:
-320180941780, 320180942321, 
-comment:
+320180941780, 320180942181, A, A, B, A, A
+comment: There's not enough ducumentation, like information about author and so on.
+320180941780, 320180941250, B, D, C, B, B
+comment: No doctest. And the code is not pythonic.
+320180941780, 320180941991, A, D, C, B, B
+comment: No doctest. The docstr is in Chinese.
+320180941780, 320180941460, A, B, B, A, A
+comment: Some functions don't have doctest.
+320180941780, 320180942321, A, A, C, A, B
+comment: The documentation is insufficient.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941821, 320180942201, 
 comment:
