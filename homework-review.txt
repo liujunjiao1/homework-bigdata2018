@@ -252,16 +252,16 @@ comment:complete many functions and the code is concise
 320180941460, 320180941161, A, A, C, B, A
 comment:describe matrix in two parts, half documentation is chinese, not much exception
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941581, 320180941590, 
-comment:
-320180941581, 320180942131, 
-comment:
-320180941581, 320180941141, 
-comment:
-320180941581, 320170929331, 
-comment:
-320180941581, 320180941291, 
-comment:
+320180941581, 320180941590, A,C,C,B,B
+comment: Complete functions and pythonic. But no doctest, no docstr.
+320180941581, 320180942131, A,B,B,A,B
+comment: Great code, abundant functions and methods. No doctest, part Chinese docstr. 
+320180941581, 320180941141, B,D,D,C,C
+comment: The code is not pythonic, no dectest, no docstr, no exception, no test. 
+320180941581, 320170929331, A,A,A,A,A
+comment: The code has great test and docstr. Class has abundant functions and methods. Code is pythonic.
+320180941581, 320180941291, A,A,A,A,A
+comment:The code is pythonic and has great test amd docstr. Clear docstr,full functions, exception great.  
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941590, 320180942211, 
 comment:
