@@ -472,16 +472,16 @@ comment: Please try to use more English comments, and test by doctest.
 320180942211, 320180941881, A, A, A, A, A
 comment: Well done. Add whitespaces after comma can make your code more pythonic.
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942261, 320170903441, 
-comment:
-320180942261, 320170929331, 
-comment:
-320180942261, 320180941291, 
-comment:
-320180942261, 320180942181, 
-comment:
-320180942261, 320180941141, 
-comment:
+320180942261, 320170903441, A, A, A, A, A
+comment:comments/320180942261-320170903441.txt
+320180942261, 320170929331, A, A, A, B, A
+comment:comments/320180942261-320170929331.txt
+320180942261, 320180941291, A, A, A, A, B
+comment:comments/320180942261-320180941291.txt
+320180942261, 320180942181, A, A, A, A, A
+comment:comments/320180942261-320180942181.txt 
+320180942261, 320180941141, B, B, B, B, B
+comment:There is no new class, seems to be a misunderstanding of the job?
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942301, 320180940780, A, B, A, B, A
 comment:Lack of exception handling and testing, the functions are basically implemented, and the code is very clear.
