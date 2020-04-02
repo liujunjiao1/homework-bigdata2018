@@ -373,16 +373,16 @@ comment:
 320180941901, 320180941291, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941931, 320180940961, 
-comment:
-320180941931, 320180941581, 
-comment:
-320180941931, 320180941370, 
-comment:
-320180941931, 320180941161, 
-comment:
-320180941931, 320180941861, 
-comment:
+320180941931, 320180940961, C,B,B,C,B
+comment:The code is sth. wrong. Function is not full.
+320180941931, 320180941581, B,A,B,A,A
+comment:A few wrong. 
+320180941931, 320180941370, A,B,A,B,A
+comment:Well done but no explanation.
+320180941931, 320180941161, A,A,A,A,A
+comment:Correct. Everything was thought over.
+320180941931, 320180941861, A,B,B,B,A
+comment:Function is not full. Other is OK.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941980, 320180919421, A, A, A, A, A
 comment:There is ample documentation and testing, and the code is well-written
