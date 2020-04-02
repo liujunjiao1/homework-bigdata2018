@@ -483,16 +483,16 @@ comment:
 320180942261, 320180941141, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180942301, 320180940780, 
-comment:
-320180942301, 320170903441, 
-comment:
-320180942301, 320180941011, 
-comment:
-320180942301, 320180941001, 
-comment:
-320180942301, 320180941841, 
-comment:
+320180942301, 320180940780, A, B, A, B, A
+comment:Lack of exception handling and testing, the functions are basically implemented, and the code is very clear.
+320180942301, 320170903441, A, A, A, A, A
+comment:Each function is implemented and easy to understand, the code is correct, and the annotation is very perfect.
+320180942301, 320180941011, A, A, A, A, A
+comment:The document test is well written, and the usage of various functions is clear. Assert used for exception handling is very simple.
+320180942301, 320180941001, A, A, B, A, A
+comment:Using assert to handle exceptions, the document test is very concise
+320180942301, 320180941841, A, B, A, C, A
+comment:Using LRU cache and product third-party library, the code is simple and easy to understand, but the function is not perfect, the test doctest is not perfect, and there is no exception handling.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180942321, 320180941821, 
 comment:
