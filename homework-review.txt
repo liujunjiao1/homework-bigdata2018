@@ -351,16 +351,16 @@ comment:result is correct and no grammar wrong,but has no doctest and documentat
 320180941881, 320180941420, A,A,A,A,B
 comment:prefect code,but a little problem with annotation style
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941890, 320180941420, 
-comment:
-320180941890, 320180941141, 
-comment:
-320180941890, 320180941841, 
-comment:
-320180941890, 320180942301, 
-comment:
-320180941890, 320180919421, 
-comment:
+320180941890, 320180941420, A,A,A,B,A
+comment:Function,test correct,basically comply with the specification,lack of exception,some docstr can be added appropriately
+320180941890, 320180941141, A,C,B,C,A
+comment:Function correct,lack doctest,docstr and exception handling
+320180941890, 320180941841, A,A,A,A,A
+comment:Well done,missing some exception handling
+320180941890, 320180942301, B,C,A,C,A
+comment:Function not fully implemented correctly,lack of doctest and exception handling
+320180941890, 320180919421, A,A,A,A,A
+comment:Well done,everything is totally covered
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941901, 320180941931, 
 comment:
