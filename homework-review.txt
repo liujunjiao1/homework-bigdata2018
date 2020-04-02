@@ -65,16 +65,16 @@ comment:
 320170926300, 320180942131, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320170929331, 320180941691, 
-comment:
-320170929331, 320180940891, 
-comment:
-320170929331, 320180942201, 
-comment:
-320170929331, 320180941931, 
-comment:
-320170929331, 320180941011, 
-comment:
+320170929331, 320180941691, B, A, A, B, A
+comment:someting was wrong in Matrix.invert() and some exceptions were beyond consideration, no type chenking
+320170929331, 320180940891, B, C, D, C, B
+comment:barely no documentations nor comments, cannot handle some cases(such as __setitem__() )
+320170929331, 320180942201, D, D, B, C, B
+comment:cannot pass the compiling, no tests, no documentations, comment in chinese, but its basically pythonic
+320170929331, 320180941931, B, C, C, B, B
+comment:barely no tests, no docstr nor doctests, comment in chinese, but have type checking in __mul__()
+320170929331, 320180941011, D, B, B, C, B
+comment:cannot pass the doctest and compiling, have many problem in exception handling
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180919421, 320170900210, 
 comment:
