@@ -384,16 +384,16 @@ comment:
 320180941931, 320180941861, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941980, 320180919421, 
-comment:
-320180941980, 320180941370, 
-comment:
-320180941980, 320180941991, 
-comment:
-320180941980, 320180941881, 
-comment:
-320180941980, 320180942211, 
-comment:
+320180941980, 320180919421, A, A, A, A, A
+comment:There is ample documentation and testing, and the code is well-written
+320180941980, 320180941370, A, A, B, A, B
+comment:The code is nice, but it lacks a docstring for the function
+320180941980, 320180941991, A, B, B, B, A
+comment:The test was written in main () instead of doctest, and there was no docstring, no error considerations
+320180941980, 320180941881, A, A, A, A, A
+comment:Documentation and testing are good, errors are considered, and the code is clean
+320180941980, 320180942211, A, A, A, A, A
+comment:Everything is rigorous, the details are perfect, it can be a model
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941991, 320180941590, 
 comment:
