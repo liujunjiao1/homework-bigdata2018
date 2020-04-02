@@ -230,16 +230,16 @@ comment:
 320180941370, 320180942261, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941420, 320180941901, 
-comment:
-320180941420, 320170926300, 
-comment:
-320180941420, 320180941780, 
-comment:
-320180941420, 320180941821, 
-comment:
-320180941420, 320180942011, 
-comment:
+320180941420, 320180941901, A, A, B, A, A
+comment: complete functions, but documentation is not good
+320180941420, 320170926300, A, B, B, B, A
+comment: no exception and no doctest
+320180941420, 320180941780, B, A, A, B, A
+comment: function of dot_mul is flase
+320180941420, 320180941821, A, A, B, A, A
+comment: documentation is not good
+320180941420, 320180942011, A, A, A, B, A
+comment: complete functions, but no exception
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941460, 320180941821, A, A, A, B, A
 comment:complete enough functions,but not enough exception
