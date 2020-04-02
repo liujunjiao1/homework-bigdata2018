@@ -450,16 +450,16 @@ Rules:
  320180942181, 320180941931, 
  comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180942201, 320180941780, 
- comment:
- 320180942201, 320180942021, 
- comment:
- 320180942201, 320180942131, 
- comment:
- 320180942201, 320180941581, 
- comment:
- 320180942201, 320180942211, 
- comment:
+ 320180942201, 320180941780, A,A,A,A,A
+ comment:Good function, exquisite style
+ 320180942201, 320180942021, A,A,A,A,A
+ comment:Superb level
+ 320180942201, 320180942131, A,A,A,A,A
+ comment:Logical rigor is well thought out
+ 320180942201, 320180941581, A,A,A,A,A
+ comment:Well done. This code is beautiful
+ 320180942201, 320180942211, A,A,A,A,A
+ comment:This is the best code I've ever seen
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180942211, 320180928901, A, A, A, A, A
  comment: Well done. Please use *.py format next time rather than *.ipynb and delete repeated file in your folder.
