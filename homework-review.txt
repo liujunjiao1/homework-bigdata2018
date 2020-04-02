@@ -175,16 +175,16 @@ comment:
 320180941141, 320180941001, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941161, 320180941370, 
-comment:
-320180941161, 320180941881, 
-comment:
-320180941161, 320180940981, 
-comment:
-320180941161, 320180928901, 
-comment:
-320180941161, 320180940780, 
-comment:
+320180941161, 320180941370, A,A,A,A,B
+comment: Good job! But the coding style isn't pythonic.
+320180941161, 320180941881, A,B,A,A,B
+comment: the test is not very correct. And the coding style isn't pythonic.
+320180941161, 320180940981, A,B,A,A,B
+comment:  The coding style isn't pythonic.
+320180941161, 320180928901, A,B,A,A,B
+comment: The coding style isn't pythonic.
+320180941161, 320180940780, A,A,A,A,B
+comment:the coding style isn't pythonic.
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941250, 320170926300, 
 comment:
