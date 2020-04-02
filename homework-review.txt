@@ -241,16 +241,16 @@ comment:
 320180941420, 320180942011, 
 comment:
 Reviewer, homework, correctness, test, documentation, exception, pep8
-320180941460, 320180941821, 
-comment:
-320180941460, 320180941890, 
-comment:
-320180941460, 320180942011, 
-comment:
-320180941460, 320180941841, 
-comment:
-320180941460, 320180941161, 
-comment:
+320180941460, 320180941821, A, A, A, B, A
+comment:complete enough functions,but not enough exception
+320180941460, 320180941890, A, A, C, B, A
+comment:the code is right but the documentation is chinese, not much exception
+320180941460, 320180942011, A, A, A, B, A
+comment:the function and documentation is detailed, not much exception
+320180941460, 320180941841, A, A, B, B, A
+comment:complete many functions and the code is concise
+320180941460, 320180941161, A, A, C, B, A
+comment:describe matrix in two parts, half documentation is chinese, not much exception
 Reviewer, homework, correctness, test, documentation, exception, pep8
 320180941581, 320180941590, 
 comment:
